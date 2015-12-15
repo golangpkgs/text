@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/language"
+	"github.com/golangpkgs/text/language"
 )
 
 func TestInheritanceMatcher(t *testing.T) {

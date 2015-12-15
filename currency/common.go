@@ -2,7 +2,7 @@
 
 package currency
 
-import "golang.org/x/text/language"
+import "github.com/golangpkgs/text/language"
 
 // This file contains code common to gen.go and the package code.
 

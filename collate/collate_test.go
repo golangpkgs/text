@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"testing"
 
-	"golang.org/x/text/collate/colltab"
-	"golang.org/x/text/language"
+	"github.com/golangpkgs/text/collate/colltab"
+	"github.com/golangpkgs/text/language"
 )
 
 type weightsTest struct {

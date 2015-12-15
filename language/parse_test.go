@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/internal/tag"
+	"github.com/golangpkgs/text/internal/tag"
 )
 
 type scanTest struct {

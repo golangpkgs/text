@@ -13,14 +13,14 @@
 //
 // Text passed to any of the calls in this message does not need to be
 // normalized.
-package search // import "golang.org/x/text/search"
+package search // import "github.com/golangpkgs/text/search"
 
 import (
 	"strings"
 
-	"golang.org/x/text/collate/colltab"
-	newcolltab "golang.org/x/text/internal/colltab"
-	"golang.org/x/text/language"
+	"github.com/golangpkgs/text/collate/colltab"
+	newcolltab "github.com/golangpkgs/text/internal/colltab"
+	"github.com/golangpkgs/text/language"
 )
 
 // An Option configures a Matcher.

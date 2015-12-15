@@ -7,7 +7,7 @@ package width_test
 import (
 	"fmt"
 
-	"golang.org/x/text/width"
+	"github.com/golangpkgs/text/width"
 )
 
 func ExampleTransformer_fold() {

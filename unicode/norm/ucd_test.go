@@ -18,7 +18,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"golang.org/x/text/internal/gen"
+	"github.com/golangpkgs/text/internal/gen"
 )
 
 var long = flag.Bool("long", false,

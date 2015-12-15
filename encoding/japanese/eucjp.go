@@ -8,10 +8,10 @@ import (
 	"errors"
 	"unicode/utf8"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/internal"
-	"golang.org/x/text/encoding/internal/identifier"
-	"golang.org/x/text/transform"
+	"github.com/golangpkgs/text/encoding"
+	"github.com/golangpkgs/text/encoding/internal"
+	"github.com/golangpkgs/text/encoding/internal/identifier"
+	"github.com/golangpkgs/text/transform"
 )
 
 // EUCJP is the EUC-JP encoding.

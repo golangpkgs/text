@@ -5,7 +5,7 @@
 package colltab
 
 import (
-	"golang.org/x/text/collate/colltab"
+	"github.com/golangpkgs/text/collate/colltab"
 )
 
 // An Iter incrementally converts chunks of the input text to collation

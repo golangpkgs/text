@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/language"
-	"golang.org/x/text/transform"
-	"golang.org/x/text/unicode/norm"
+	"github.com/golangpkgs/text/language"
+	"github.com/golangpkgs/text/transform"
+	"github.com/golangpkgs/text/unicode/norm"
 )
 
 type testCase struct {

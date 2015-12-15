@@ -19,9 +19,9 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"golang.org/x/text/collate/build"
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/language"
+	"github.com/golangpkgs/text/collate/build"
+	"github.com/golangpkgs/text/internal/gen"
+	"github.com/golangpkgs/text/language"
 )
 
 var long = flag.Bool("long", false,

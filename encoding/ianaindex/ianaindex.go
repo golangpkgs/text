@@ -10,7 +10,7 @@
 package ianaindex
 
 import (
-	"golang.org/x/text/encoding"
+	"github.com/golangpkgs/text/encoding"
 )
 
 // TODO: allow users to specify their own aliases?

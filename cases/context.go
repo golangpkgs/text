@@ -5,7 +5,7 @@
 package cases
 
 import (
-	"golang.org/x/text/transform"
+	"github.com/golangpkgs/text/transform"
 )
 
 // A context is used for iterating over source bytes, fetching case info and

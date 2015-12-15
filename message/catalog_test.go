@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/text/internal"
-	"golang.org/x/text/language"
+	"github.com/golangpkgs/text/internal"
+	"github.com/golangpkgs/text/language"
 )
 
 type entry struct{ tag, key, msg string }

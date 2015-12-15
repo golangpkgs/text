@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-// NOTICE: Package display has moved to golang.org/x/text/language/display.
-// Use golang.org/x/text/language/display instead.
-package display // import "golang.org/x/text/display"
+// NOTICE: Package display has moved to github.com/golangpkgs/text/language/display.
+// Use github.com/golangpkgs/text/language/display instead.
+package display // import "github.com/golangpkgs/text/display"
 
 // TODO: change package path reference to the following so that people get
 // a warning of where the package has been moved to.
-// package display // import "golang.org/x/text/language/display"
+// package display // import "github.com/golangpkgs/text/language/display"
 
 import (
 	"strings"
 
-	"golang.org/x/text/language"
+	"github.com/golangpkgs/text/language"
 )
 
 /*

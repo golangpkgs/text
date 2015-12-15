@@ -16,7 +16,7 @@
 // IANA data can also optionally be mirrored by putting it in the iana directory
 // rooted at the top of the local mirror. Beware, though, that IANA data is not
 // versioned. So it is up to the developer to use the right version.
-package gen // import "golang.org/x/text/internal/gen"
+package gen // import "github.com/golangpkgs/text/internal/gen"
 
 import (
 	"bytes"
@@ -32,7 +32,7 @@ import (
 	"path/filepath"
 	"unicode"
 
-	"golang.org/x/text/unicode/cldr"
+	"github.com/golangpkgs/text/unicode/cldr"
 )
 
 var (

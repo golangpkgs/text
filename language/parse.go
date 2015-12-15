@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/text/internal/tag"
+	"github.com/golangpkgs/text/internal/tag"
 )
 
 // isAlpha returns true if the byte is not a digit.

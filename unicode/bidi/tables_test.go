@@ -8,8 +8,8 @@ import (
 	"flag"
 	"testing"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/ucd"
+	"github.com/golangpkgs/text/internal/gen"
+	"github.com/golangpkgs/text/internal/ucd"
 )
 
 var long = flag.Bool("long", false,

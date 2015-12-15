@@ -9,9 +9,9 @@ package main
 import (
 	"log"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/language"
-	"golang.org/x/text/unicode/cldr"
+	"github.com/golangpkgs/text/internal/gen"
+	"github.com/golangpkgs/text/language"
+	"github.com/golangpkgs/text/unicode/cldr"
 )
 
 func main() {

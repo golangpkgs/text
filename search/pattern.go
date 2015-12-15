@@ -5,8 +5,8 @@
 package search
 
 import (
-	"golang.org/x/text/collate/colltab"
-	newcolltab "golang.org/x/text/internal/colltab"
+	"github.com/golangpkgs/text/collate/colltab"
+	newcolltab "github.com/golangpkgs/text/internal/colltab"
 )
 
 // TODO: handle variable primary weights?

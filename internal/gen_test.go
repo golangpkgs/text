@@ -7,7 +7,7 @@ package internal
 import (
 	"testing"
 
-	"golang.org/x/text/language"
+	"github.com/golangpkgs/text/language"
 )
 
 func TestParents(t *testing.T) {

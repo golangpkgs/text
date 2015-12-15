@@ -17,9 +17,9 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/ucd"
-	"golang.org/x/text/unicode/rangetable"
+	"github.com/golangpkgs/text/internal/gen"
+	"github.com/golangpkgs/text/internal/ucd"
+	"github.com/golangpkgs/text/unicode/rangetable"
 )
 
 var versionList = flag.String("versions", "",

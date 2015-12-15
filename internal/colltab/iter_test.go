@@ -7,7 +7,7 @@ package colltab
 import (
 	"testing"
 
-	"golang.org/x/text/collate/colltab"
+	"github.com/golangpkgs/text/collate/colltab"
 )
 
 const (

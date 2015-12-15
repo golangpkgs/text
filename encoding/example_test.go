@@ -10,9 +10,9 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/charmap"
-	"golang.org/x/text/transform"
+	"github.com/golangpkgs/text/encoding"
+	"github.com/golangpkgs/text/encoding/charmap"
+	"github.com/golangpkgs/text/transform"
 )
 
 func ExampleDecodeWindows1252() {

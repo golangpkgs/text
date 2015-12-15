@@ -17,11 +17,11 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/text/internal"
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/tag"
-	"golang.org/x/text/language"
-	"golang.org/x/text/unicode/cldr"
+	"github.com/golangpkgs/text/internal"
+	"github.com/golangpkgs/text/internal/gen"
+	"github.com/golangpkgs/text/internal/tag"
+	"github.com/golangpkgs/text/language"
+	"github.com/golangpkgs/text/unicode/cldr"
 )
 
 var (
@@ -54,7 +54,7 @@ func main() {
 	w := gen.NewCodeWriter()
 	defer w.WriteGoFile(*outputFile, "currency")
 
-	fmt.Fprintln(w, `import "golang.org/x/text/internal/tag"`)
+	fmt.Fprintln(w, `import "github.com/golangpkgs/text/internal/tag"`)
 
 	gen.WriteCLDRVersion(w)
 	b := &builder{}
